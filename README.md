@@ -5,6 +5,9 @@
 > 
 > Critically, this remake leverages Apple's low-level Metal API to take advance of hardware-accelerated 3D graphics, specifically with the aim of providing future-proofing and capatability for running this task on Apple Silicon (M-chips).
 
+## 🎉 WIP Demo of Precisely Timed Shaders
+https://github.com/user-attachments/assets/790124a1-c9f0-4a5f-8a53-0efe40a2111e
+
 ## ⚠️ Problem Statement
 - Current best-practices for running and collecting data on the gradCPT are to use Esterman's original MATLAB program which leverages the popular Psychtoolbox-3 (PTB) software package; this PTB-based gradCPT program is available both as an open source MATLAB script as well as a standalone Windows `.exe` (i.e., executable MATLAB program).
 - While these original versions of the gradCPT have been useful since their creation, changes in computing architectures over the past decade have led to compatibility issues:
