@@ -1,7 +1,9 @@
 <h1 align="center">WIP gradCPT (native macOS version) 🧑‍💻</h1>
 
 > [!NOTE]
-> A macOS-native remake of the Esterman gradual continuous onset performance task (gradCPT; Esterman et al., 2013).<br /> Critically, this remake leverages Apple's low-level Metal API to take advance of hardware-accelerated 3D graphics, specifically with the aim of providing future-proofing and capatability for running this task on Apple Silicon (M-chips).
+> A macOS-native remake of the Esterman gradual continuous onset performance task (gradCPT; Esterman et al., 2013).
+> 
+> Critically, this remake leverages Apple's low-level Metal API to take advance of hardware-accelerated 3D graphics, specifically with the aim of providing future-proofing and capatability for running this task on Apple Silicon (M-chips).
 
 ## ⚠️ Problem Statement
 - Current best-practices for running and collecting data on the gradCPT are to use Esterman's original MATLAB program which leverages the popular Psychtoolbox-3 (PTB) software package; this PTB-based gradCPT program is available both as an open source MATLAB script as well as a standalone Windows `.exe` (i.e., executable MATLAB program).
